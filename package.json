@@ -1,0 +1,19 @@
+{
+  "name": "learning-node",
+  "version": "1.0.0",
+  "description": "Learning Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyguy12/learning-node.git"
+  },
+  "author": "Warren Ste Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyguy12/learning-node/issues"
+  },
+  "homepage": "https://github.com/pyguy12/learning-node#readme"
+}
