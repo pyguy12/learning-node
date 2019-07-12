@@ -18,5 +18,8 @@
   "homepage": "https://github.com/pyguy12/learning-node#readme",
   "dependencies": {
     "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
