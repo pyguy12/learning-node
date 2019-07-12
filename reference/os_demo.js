@@ -1,6 +1,6 @@
 const os = require("os");
 
-// os.platform() returns the curren operating system of the machine it runs on.
+// os.platform() returns the current operating system of the machine it runs on.
 console.log(os.platform());
 
 // os.arch() returns the CPU architecture of the current machine.
