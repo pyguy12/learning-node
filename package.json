@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pyguy12/learning-node/issues"
   },
-  "homepage": "https://github.com/pyguy12/learning-node#readme"
+  "homepage": "https://github.com/pyguy12/learning-node#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
 }
