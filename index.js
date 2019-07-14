@@ -1,5 +1,10 @@
-const Person = require("./person");
+const Logger = require("./logger");
 
-const person1 = new Person("John", 23);
+// Instantiating a new logger. Since Logger is a class, we must instantiate it.
+const logger = new Logger();
 
-person1.greeting();
+logger.on("message", args => {
+  console.log(args);
+});
+
+logger.log("Hello");
