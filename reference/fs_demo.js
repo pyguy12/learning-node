@@ -30,7 +30,7 @@ fs.appendFile(
   }
 );
 
-// fs.readFile() takes a path, an character format, and a callback function. The callback can take the data being read as a second parameter.
+// fs.readFile() takes a path, a character format, and a callback function. The callback can take the data being read as a second parameter.
 fs.readFile(path.join(__dirname, "/test", "test.txt"), "utf8", (err, data) => {
   if (err) throw err;
   console.log(data);
